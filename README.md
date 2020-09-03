@@ -1,7 +1,7 @@
 # ShepotSim
 diploma work (c#, winforms,mysql(mariadb)), simulation of "SOZ Shepot" for educational purposes
 
-Без подключения к БД программа не работает
+Без подключения к БД (mysql(mariadb), (можно используя xampp)) программа не работает
 
 Для входа:
 Администратор (преподаватель) Барабаш Д.М. - логин admin, пароль 12345
