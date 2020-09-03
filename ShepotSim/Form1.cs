@@ -817,41 +817,41 @@ namespace ShepotSim
             measurement = new TextBox[4, 7]
             {
                 {
-                tBLtc1,
-                tBLtc2,
-                tBLtc3,
-                tBLtc4,
-                tBLtc5,
-                tBLtc6,
-                tBLtc7
-            },
-            {
-                tBLsh1,
-                tBLsh2,
-                tBLsh3,
-                tBLsh4,
-                tBLsh5,
-                tBLsh6,
-                tBLsh7
-            },
-            {
-                tBLh1,
-                tBLh2,
-                tBLh3,
-                tBLh4,
-                tBLh5,
-                tBLh6,
-                tBLh7
-            },
-            {
-                tBLsaz1,
-                tBLsaz2,
-                tBLsaz3,
-                tBLsaz4,
-                tBLsaz5,
-                tBLsaz6,
-                tBLsaz7
-            }
+                    tBLtc1,
+                    tBLtc2,
+                    tBLtc3,
+                    tBLtc4,
+                    tBLtc5,
+                    tBLtc6,
+                    tBLtc7
+                },
+                {
+                    tBLsh1,
+                    tBLsh2,
+                    tBLsh3,
+                    tBLsh4,
+                    tBLsh5,
+                    tBLsh6,
+                    tBLsh7
+                },
+                {
+                    tBLh1,
+                    tBLh2,
+                    tBLh3,
+                    tBLh4,
+                    tBLh5,
+                    tBLh6,
+                    tBLh7
+                },
+                {
+                    tBLsaz1,
+                    tBLsaz2,
+                    tBLsaz3,
+                    tBLsaz4,
+                    tBLsaz5,
+                    tBLsaz6,
+                    tBLsaz7
+                }
             };
         }
 
