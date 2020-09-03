@@ -696,7 +696,7 @@ namespace ShepotSim
             }
             tmrClock.Enabled = false;
             if (tBLsh1.Text != "" & tBLh1.Text != "" & tBLtc1.Text != "")
-            { 
+            {
                 FillGistogram();
             }
         }
@@ -1028,30 +1028,30 @@ namespace ShepotSim
                                         newMeasurement2.MeasurementId = 1;
                                     }
                                     newMeasurement2.CheckPointId = Convert.ToInt32(tBCheckPointId.Text);
-                                        switch (i2)
-                                        {
-                                            case 0:
-                                                newMeasurement2.f = 125;
-                                                break;
-                                            case 1:
-                                                newMeasurement2.f = 250;
-                                                break;
-                                            case 2:
-                                                newMeasurement2.f = 500;
-                                                break;
-                                            case 3:
-                                                newMeasurement2.f = 1000;
-                                                break;
-                                            case 4:
-                                                newMeasurement2.f = 2000;
-                                                break;
-                                            case 5:
-                                                newMeasurement2.f = 4000;
-                                                break;
-                                            case 6:
-                                                newMeasurement2.f = 8000;
-                                                break;
-                                        }
+                                    switch (i2)
+                                    {
+                                        case 0:
+                                            newMeasurement2.f = 125;
+                                            break;
+                                        case 1:
+                                            newMeasurement2.f = 250;
+                                            break;
+                                        case 2:
+                                            newMeasurement2.f = 500;
+                                            break;
+                                        case 3:
+                                            newMeasurement2.f = 1000;
+                                            break;
+                                        case 4:
+                                            newMeasurement2.f = 2000;
+                                            break;
+                                        case 5:
+                                            newMeasurement2.f = 4000;
+                                            break;
+                                        case 6:
+                                            newMeasurement2.f = 8000;
+                                            break;
+                                    }
                                     newMeasurement2.Ltc = Convert.ToDouble(Ltc[i2].Text);
                                     newMeasurement2.Lsh = Convert.ToDouble(Lsh[i2].Text);
                                     newMeasurement2.Lh = Convert.ToDouble(Lh[i2].Text);
@@ -1257,30 +1257,30 @@ namespace ShepotSim
                                         newMeasurement.MeasurementId = 1;
                                     }
                                     newMeasurement.CheckPointId = Convert.ToInt32(tBCheckPointId.Text);
-                                        switch (j)
-                                        {
-                                            case 0:
-                                                newMeasurement.f = 125;
-                                                break;
-                                            case 1:
-                                                newMeasurement.f = 250;
-                                                break;
-                                            case 2:
-                                                newMeasurement.f = 500;
-                                                break;
-                                            case 3:
-                                                newMeasurement.f = 1000;
-                                                break;
-                                            case 4:
-                                                newMeasurement.f = 2000;
-                                                break;
-                                            case 5:
-                                                newMeasurement.f = 4000;
-                                                break;
-                                            case 6:
-                                                newMeasurement.f = 8000;
-                                                break;
-                                        }
+                                    switch (j)
+                                    {
+                                        case 0:
+                                            newMeasurement.f = 125;
+                                            break;
+                                        case 1:
+                                            newMeasurement.f = 250;
+                                            break;
+                                        case 2:
+                                            newMeasurement.f = 500;
+                                            break;
+                                        case 3:
+                                            newMeasurement.f = 1000;
+                                            break;
+                                        case 4:
+                                            newMeasurement.f = 2000;
+                                            break;
+                                        case 5:
+                                            newMeasurement.f = 4000;
+                                            break;
+                                        case 6:
+                                            newMeasurement.f = 8000;
+                                            break;
+                                    }
                                     newMeasurement.Ltc = Convert.ToDouble(Ltc[j].Text);
                                     newMeasurement.Lsh = Convert.ToDouble(Lsh[j].Text);
                                     newMeasurement.Lh = Convert.ToDouble(Lh[j].Text);
@@ -2066,7 +2066,7 @@ namespace ShepotSim
                 }
                 if (verval[i].DeviceID == 2)
                 {
-                    PovDatadB2[i-7].Text = Convert.ToString(verval[i].ValueVerificationValue + valueForAdd + valueForAddDouble);
+                    PovDatadB2[i - 7].Text = Convert.ToString(verval[i].ValueVerificationValue + valueForAdd + valueForAddDouble);
                 }
             }
         }
@@ -2182,30 +2182,30 @@ namespace ShepotSim
                                 {
                                     {
                                         87.5,
-                                    175.0,
-                                    350.0,
-                                    700.0,
-                                    1400.0,
-                                    2800.0,
-                                    5600.0
+                                        175.0,
+                                        350.0,
+                                        700.0,
+                                        1400.0,
+                                        2800.0,
+                                        5600.0
                                     },
                                     {
-                                    175.0,
-                                    350.0,
-                                    700.0,
-                                    1400.0,
-                                    2800.0,
-                                    5600.0,
-                                    11200.0
+                                        175.0,
+                                        350.0,
+                                        700.0,
+                                        1400.0,
+                                        2800.0,
+                                        5600.0,
+                                        11200.0
                                     },
                                     {
-                                    125.0,
-                                    250.0,
-                                    500.0,
-                                    1000.0,
-                                    2000.0,
-                                    4000.0,
-                                    8000.0
+                                        125.0,
+                                        250.0,
+                                        500.0,
+                                        1000.0,
+                                        2000.0,
+                                        4000.0,
+                                        8000.0
                                     }
                                 };
                                 double tc = Convert.ToDouble(Ltc[i].Text);
@@ -2405,7 +2405,7 @@ namespace ShepotSim
                     verval.Add(verificationvalue);
                 }
                 double checkvalue = Convert.ToDouble(PovDatadB2[i].Text);
-                double E = Math.Round(1000 * Math.Pow(10, (checkvalue/20)), 2);
+                double E = Math.Round(1000 * Math.Pow(10, (checkvalue / 20)), 2);
                 if (PovDatamVPa2[i].Text != "")
                 {
                     if (E == Convert.ToDouble(PovDatamVPa2[i].Text))
@@ -2441,14 +2441,14 @@ namespace ShepotSim
 
         private void buttonCleanMeasurement_Click(object sender, EventArgs e)
         {
-                foreach (Control tB2 in groupBoxMeasurementResults.Controls)
+            foreach (Control tB2 in groupBoxMeasurementResults.Controls)
+            {
+                if (tB2 is TextBox)
                 {
-                    if (tB2 is TextBox)
-                    {
-                        tB2.Text = "";
-                        tB2.BackColor = Color.White;
-                    }
+                    tB2.Text = "";
+                    tB2.BackColor = Color.White;
                 }
+            }
         }
 
         private void btnClearW_Click(object sender, EventArgs e)
@@ -2883,7 +2883,7 @@ namespace ShepotSim
                 ReplaceWordStub("{numberOfLabWork}", Convert.ToString(flagOfLog), wordDocument);
                 ReplaceWordStub("{Surname}", tBSurname.Text, wordDocument);
                 ReplaceWordStub("{Na}", tBName.Text.Substring(0, 1), wordDocument);
-                if(flagOfLog == 1)
+                if (flagOfLog == 1)
                 {
                     ReplaceWordStub("{Theme}", "«Оценка защищенности окон от утечки информации по акустическому и виброакустическому каналу»", wordDocument);
                 }
