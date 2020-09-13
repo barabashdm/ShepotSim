@@ -1,5 +1,5 @@
 # ShepotSim
-diploma work (c#, winforms,mysql(mariadb)), simulation of "SOZ Shepot" for educational purposes
+diploma work (c#, winforms,mysql(mariadb)), simulation of "SOZ Shepot" for educational purposes 02.07.2020
 
 Без подключения к БД (mysql(mariadb), (можно используя xampp)) программа не работает
 
@@ -10,3 +10,4 @@ diploma work (c#, winforms,mysql(mariadb)), simulation of "SOZ Shepot" for educa
 Пользователь Прохорец - логин prohor123, пароль 123123
 
 Баги: в программе иногда при создании пользователя или смене пароля не получается зайти (какая-то проблема с хешированием). Данные стеклопакета для генерации могут вызвать зависание, т.к. превышают требования и нет счетчика подсчета при перегенерации с выдачей ошибки. При добавлении двух человек в одну группу: люди будут отображаться в обособленных одинаковых группах (не успел исправить).
+![Иллюстрация к проекту](https://github.com/barabashdm/ShepotSim/master/screenshot.png)
