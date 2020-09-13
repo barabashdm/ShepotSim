@@ -1,5 +1,5 @@
 # ShepotSim
-02.07.2020 diploma work (c#, winforms,mysql(mariadb)), simulation of "SOZ Shepot" for educational purposes
+02.07.2020 diploma work (c#, winforms, mysql(mariadb)), simulation of "SOZ Shepot" for educational purposes
 
 Без подключения к БД (mysql(mariadb), (можно используя xampp)) программа не работает
 
